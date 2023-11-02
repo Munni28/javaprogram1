@@ -1,0 +1,12 @@
+class Sample{
+ static void display (){
+System.out.println("hello world");
+}
+ static void display (String x){
+System.out.println("hello world"+x);
+}
+public static void main (String args []){
+display();
+display(" good morning");
+}
+}
