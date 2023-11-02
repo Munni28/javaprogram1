@@ -1,0 +1,23 @@
+class Student{
+int  id;
+String name;
+int age;
+//Calling parameterized constructor
+Student(int x,String y){
+id=x;
+name=y;
+}Student(int x,String y,int a){
+id=x;
+name=y;
+age=a;
+}
+void display (){
+System.out.println(id""+name""+age);
+}
+public static void main (String a[]){
+Student s1= new Student(1,"munni");
+Student s2= new Student(2,"Bhumika",20);
+s1.display();
+s2.display();
+}
+}
