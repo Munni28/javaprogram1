@@ -1,0 +1,25 @@
+package collections;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+public class Collection{
+	public static void main(String args[]) {
+		//@SuppressWarnings("unused")
+		List<String> strlist=new ArrayList<String>();
+		strlist=new LinkedList<String>();
+		//String tm[]= {"munni","renuka","gowthami","janisha"};
+		
+	//	String
+		//System.out.println(strlist.contains(tm));
+		strlist.add("cat");
+		strlist.add("rat");
+		strlist.add("mat");
+		System.out.println(strlist);
+		System.out.println(strlist.containsAll(strlist));
+		for(int i = 0;i<=strlist.size();i++) {
+			strlist.get(i);
+		}
+	}
+}
