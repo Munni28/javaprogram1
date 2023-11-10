@@ -5,36 +5,20 @@
 <title>Insert title here</title>
 </head>
 <body>
+ <h1>NEW USER REGISTRATION</h1>
+<form action="UserSignInServlet">
 <div class="center">
-		<div>
-			<h1>New User Registration</h1>
-		</div>
-		<div>
-			<form>
-				<table>
-					<tr>
-						<td>Username:</td>
-						<td><input type="text" name="user_name" /></td>
-					</tr>
-					<tr>
-						<td>Password:</td>
-						<td><input type="password" name="user_password" /></td>
-					</tr>
-					<tr>
-						<td>Confirm Password:</td>
-						<td><input type="password" name="user_confirm_password" /></td>
-					</tr>
-					<tr>
-						<td><button>RESET</button></td>
-						<td><input type="submit" name="user_sign_up" value="SIGN UP"/></td>
-					</tr>
-					
-				</table>
-			</form>
-		</div>
-	</div>
-
+<label>
+<b>User Name</b>
+</label><br/>
+<input type="text" name="user_name"/><br/><br/>
+<label><b>password</b></label><br/>
+<input type="password" name="user_password" /><br/><br/>
+<label><b>confirm_password</b></label><br/>
+<input type="password" name="user_confirm_password"/><br/><br/>
+<input type="submit" name="user_reset" value="RESET"/>
+<input type="submit" name="user_sign_up" value="SIGNUP"/><br/>
+</div>
 </form>
-
 </body>
 </html>
